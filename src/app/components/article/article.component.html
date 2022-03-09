@@ -1,7 +1,7 @@
 <h2 class="fableTitle">Nos fables</h2>
 <ul class="articleDisplay">   
     <li *ngFor="let article of articles" class="articleBG">
-        <a href={{article.lien}}>
+        <a routerLink={{article.lien}} routerLinkActive="active">
             <img class="articleImg" src={{article.logo}} alt="">
         </a>
     </li>

@@ -1,0 +1,22 @@
+.fableTitle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lilita One', cursive;
+    font-size: 72px;
+}
+.articleDisplay {
+    display: flex;
+    justify-content: space-around;
+}
+.articleBG {
+    background-color: #4D9C9D;
+    border-radius: 10px;
+    width: 20rem;
+    height: 30rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.articleImg {  
+   width: 15rem;
+}

@@ -1,1 +1,8 @@
-<p>article works!</p>
+<h2 class="fableTitle">Nos fables</h2>
+<ul class="articleDisplay">   
+    <li *ngFor="let article of articles" class="articleBG">
+        <a href="">
+            <img class="articleImg" src={{article.logo}} alt="">
+        </a>
+    </li>
+</ul>

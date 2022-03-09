@@ -1,0 +1,11 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+
+  .logo-img{
+    width: min(30vw, 80px);
+  }
+
+  .theNav{
+      color: white;
+  }

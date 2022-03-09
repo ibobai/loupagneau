@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import {MatToolbarModule} from '@angular/material/toolbar'; 
+import {MatButtonModule} from '@angular/material/button'; 
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -18,7 +20,9 @@ import { ArticleComponent } from './components/article/article.component';
     ArticleComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatToolbarModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

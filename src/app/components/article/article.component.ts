@@ -21,7 +21,7 @@ export class ArticleComponent implements OnInit {
       extrait02: "Cupcake cheesecake brownie carrot cake sugar plum. Chocolate bar pastry bonbon marshmallow sugar plum marzipan liquorice. Sugar plum bonbon donut candy powder tiramisu bonbon lemon drops. Caramels shortbread shortbread bonbon lollipop croissant marzipan.",
       prixStandard: 6.50,
       prixBroche: 8.79,
-      lien:""
+      lien:"../loup/loup.component.html"
     },
     {
       id: 2,

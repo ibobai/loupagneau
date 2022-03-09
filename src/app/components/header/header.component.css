@@ -9,14 +9,17 @@
   .bg-img {
     /* The image used */
     background-image: url("/assets/img/header.png");
-  
-    min-height: 380px;
-  
-    /* Center and scale the image nicely */
+    height:820px;
+    
+    background-size: 100%;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
   
-    /* Needed to position the navbar */
-    position: relative;
+  }
+
+  .title{
+    display: flex;
+    font-family: 'Lilita One', cursive;
+    font-size: 100px;
+    justify-content: space-evenly;
   }

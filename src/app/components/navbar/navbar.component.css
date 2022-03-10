@@ -9,15 +9,22 @@
 .theNav {
   color: white;
   font-family: "Lilita One", cursive;
+  
 }
-a {
-  text-decoration: none;
 
-}
-  a:link,
-  a:visited {
+a:visited {
     color: white;
 }
   a:hover {
   color: #D4A444;
+}
+
+/*
+.theNav .theLinks .accueil {
+  background-color: #D4A444;
+}
+*/
+
+.theNav .theLinks .active{
+  background-color: #D4A444;
 }

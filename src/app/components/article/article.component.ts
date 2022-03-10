@@ -47,6 +47,13 @@ export class ArticleComponent implements OnInit {
       lien:""
     }
   ];
+
+
+  //A revoir
+  getArticles() : any {
+    return this.articles;
+  }
+  
   ngOnInit(): void {
   }
 

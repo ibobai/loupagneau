@@ -11,6 +11,9 @@ import { ArticleComponent } from './components/article/article.component';
 import { LoupComponent } from './components/loup/loup.component';
 
 import { AppRoutingModule } from './app-routing.module';
+import { OursComponent } from './components/ours/ours.component';
+import { MoutonComponent } from './components/mouton/mouton.component';
+import { PresentationComponent } from './components/presentation/presentation.component';
 
 
 @NgModule({
@@ -21,7 +24,10 @@ import { AppRoutingModule } from './app-routing.module';
     FooterComponent,
     NavbarComponent,
     ArticleComponent,
-    LoupComponent
+    LoupComponent,
+    OursComponent,
+    MoutonComponent,
+    PresentationComponent
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,14 @@
 <p >
     <mat-toolbar class="theNav">
-      <span class="spacer"> <img src="assets/img/logo.png" alt="logo image" class="logo-img"> Le loup et l'Agneau</span>
-      <a mat-button routerLink="accueil" >Accueil</a>
-      <a mat-button routerLink="presentation">Présentaion</a>
-      <a routerLink="nosFables" mat-button>Nos fables</a>
-      <a mat-button routerLink="nousContacter">Nous contacter</a>
-      <a mat-button > <span><mat-icon>shopping_cart</mat-icon></span></a>
+      <span class="spacer" > <a mat-button routerLink="/accueil"><img src="assets/img/logo.png" alt="logo image" class="logo-img"></a> Le loup et l'Agneau</span>
+      <div class="theLinks"> 
+        <a mat-button routerLink="/accueil" routerLinkActive="active" routerLinkOptions="{exact:true}" class="accueil">Accueil</a>
+        <a mat-button routerLink="/presentation"  routerLinkActive="active">Présentaion</a>
+        <a routerLink="/nosFables" mat-button routerLinkActive="active">Nos fables</a>
+        <a mat-button routerLink="/nousContacter" routerLinkActive="active">Nous contacter</a>
+        <a mat-button > <span><mat-icon routerLinkActive="active">shopping_cart</mat-icon></span></a>
+      </div>
+     
     </mat-toolbar>
 </p>
 

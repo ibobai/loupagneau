@@ -16,8 +16,8 @@ a {
 }
   a:link,
   a:visited {
-    color: blue;
+    color: white;
 }
   a:hover {
-  color: white;
+  color: #D4A444;
 }

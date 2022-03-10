@@ -1,0 +1,19 @@
+.team {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+.teamImg img {
+    width: 50rem;
+    border-radius: 5rem;
+}
+.teamPresa {
+    padding: 4rem;
+    font-family: 'lilita one';
+    
+}
+.teamPresa h1 {
+    font-size: 3rem;
+}

@@ -3,7 +3,8 @@
     background-color: rgb(77, 156 , 157,32%);
     width: 70%;
     margin: 0 auto;
-    margin-top: 10rem;
+    margin-top: 5rem;
+    border-radius: 20px;
 }
 .bookTitle {
     list-style: none;

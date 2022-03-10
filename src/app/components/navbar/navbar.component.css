@@ -1,12 +1,23 @@
 .spacer {
-    flex: 1 1 auto;
-  }
+  flex: 1 1 auto;
+}
 
-  .logo-img{
-    width: min(30vw, 80px);
-  }
+.logo-img {
+  width: min(30vw, 80px);
+}
 
-  .theNav{
-      color: white;
-      font-family: 'Lilita One', cursive;
-  }
+.theNav {
+  color: white;
+  font-family: "Lilita One", cursive;
+}
+a {
+  text-decoration: none;
+
+}
+  a:link,
+  a:visited {
+    color: white;
+}
+  a:hover {
+  color: #D4A444;
+}

@@ -1,3 +1,5 @@
+import { OursComponent } from './components/article/ours/ours.component';
+import { MoutonComponent } from './components/article/mouton/mouton.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
@@ -16,6 +18,8 @@ const routes: Routes = [
   { path: 'nosFables', component: ArticleComponent },
   { path: 'nousContacter', component: FormContactComponent },
   { path: 'loup', component: LoupComponent },
+  { path: 'mouton', component: MoutonComponent },
+  { path: 'ours', component: OursComponent },
 ];
 
 @NgModule({

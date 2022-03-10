@@ -10,6 +10,9 @@
     text-align: center;
     margin-top: 2rem;
 }
+.bookTitle img {
+    width: 20rem;
+}
 .bookTitle h1 {
     font-family: 'Lilita One', cursive;
 }

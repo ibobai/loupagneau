@@ -12,9 +12,11 @@ import { ArticleComponent } from './components/article/article.component';
 import { LoupComponent } from './components/article/loup/loup.component';
 
 import { AppRoutingModule } from './app-routing.module';
-import { OursComponent } from './components/ours/ours.component';
-import { MoutonComponent } from './components/mouton/mouton.component';
+import { OursComponent } from './components/article/ours/ours.component';
+import { MoutonComponent } from './components/article/mouton/mouton.component';
 import { PresentationComponent } from './components/presentation/presentation.component';
+
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 
 @NgModule({
@@ -36,7 +38,8 @@ import { PresentationComponent } from './components/presentation/presentation.co
     MatToolbarModule,
     MatButtonModule,
     AppRoutingModule,
-    MatIconModule
+    MatIconModule,
+    CarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

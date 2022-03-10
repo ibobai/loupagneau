@@ -1,7 +1,7 @@
 <div class="book">
     <ul class="bookInfoList">   
         <li class="bookTitle" *ngFor="let article of articles">
-            <img src={{article.livreImg}}  alt="">
+            <img src={{article.livreImg}} alt="">
             <h1>{{article.title}}</h1>
         </li>
     </ul>
@@ -21,12 +21,3 @@
     </ul>
     
 </div>
-<!-- <owl-carousel-o [options]="customOptions">
-  
-    <ng-container *ngFor="let slide of articles">
-      <ng-template carouselSlide [id]="slide.id">
-        <img [src]="slide.img" >
-      </ng-template>
-    </ng-container>
-      
-</owl-carousel-o> -->

@@ -10,6 +10,8 @@ export class ArticleComponent implements OnInit {
   constructor() {
    }
 
+  // username:string = "blable"
+
   articles:any[] = [
     {
       id: 1,

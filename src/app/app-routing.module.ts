@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ArticleComponent } from './components/article/article.component';
 import { HeaderComponent } from './components/header/header.component';
-import { LoupComponent } from './components/loup/loup.component';
+import { LoupComponent } from './components/article/loup/loup.component';
 import { PresentationComponent } from './components/presentation/presentation.component';
 import { FormContactComponent } from './components/form-contact/form-contact.component';
 import { preserveWhitespacesDefault } from '@angular/compiler';
@@ -15,6 +15,7 @@ const routes: Routes = [
   { path: 'presentation', component: PresentationComponent },
   { path: 'nosFables', component: ArticleComponent },
   { path: 'nousContacter', component: FormContactComponent },
+  { path: 'loup', component: LoupComponent },
 ];
 
 @NgModule({

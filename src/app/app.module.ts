@@ -9,7 +9,7 @@ import { FormContactComponent } from './components/form-contact/form-contact.com
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ArticleComponent } from './components/article/article.component';
-import { LoupComponent } from './components/loup/loup.component';
+import { LoupComponent } from './components/article/loup/loup.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { OursComponent } from './components/ours/ours.component';

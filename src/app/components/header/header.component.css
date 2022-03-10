@@ -9,8 +9,8 @@
   .bg-img {
     /* The image used */
     background-image: url("/assets/img/header.png");
-    height:820px;
-    
+    /*height:820px;*/
+    height:1024px;
     background-size: 100%;
     background-position: center;
 
@@ -20,6 +20,8 @@
   .title{
     display: flex;
     font-family: 'Lilita One', cursive;
-    font-size: 100px;
-    justify-content: space-evenly;
+    font-size: 120px;
+    justify-content: start;
+    margin-left: 8rem;
+    padding-top: 4rem;
   }

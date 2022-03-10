@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ArticleComponent } from './components/article/article.component';
-import { HeaderComponent } from './components/header/header.component';
-import { LoupComponent } from './components/loup/loup.component';
+
+import { LoupComponent } from './components/article/loup/loup.component';
 
 
 const routes: Routes = [
     // {path: '/', component: HeaderComponent},
-    {path: 'loup', component: LoupComponent},
-    {path: 'fable', component: ArticleComponent}
+    {path: 'article', component: ArticleComponent},
+    {path: 'loup', component: LoupComponent}
     
     
 ];

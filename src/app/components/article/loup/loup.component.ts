@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-loup',
@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoupComponent implements OnInit {
 
+  // @Input() articles:any = [];
+
+
+  
+  
   constructor() { }
+  
+
 
   ngOnInit(): void {
   }
 
 }
+

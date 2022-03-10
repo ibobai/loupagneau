@@ -10,6 +10,8 @@ export class ArticleComponent implements OnInit {
   constructor() {
    }
 
+  // username:string = "blable"
+
   articles:any[] = [
     {
       id: 1,
@@ -32,7 +34,7 @@ export class ArticleComponent implements OnInit {
       extrait02: "Dragée sugar plum pudding carrot cake chocolate dragée. Topping topping gummies tart gummi bears liquorice tootsie roll sugar plum. Tart bonbon bear claw jelly beans marzipan pudding cake wafer. Caramels caramels cake gummi bears oat cake.",
       prixStandard: 5.25,
       prixBroche: 4.79,
-      lien:""
+      lien:"/mouton"
     },
     {
       id: 3,
@@ -44,9 +46,16 @@ export class ArticleComponent implements OnInit {
       extrait02: "Dragée sugar plum pudding carrot cake chocolate dragée. Topping topping gummies tart gummi bears liquorice tootsie roll sugar plum. Tart bonbon bear claw jelly beans marzipan pudding cake wafer. Caramels caramels cake gummi bears oat cake.",
       prixStandard: 5.25,
       prixBroche: 4.79,
-      lien:""
+      lien:"/ours"
     }
   ];
+
+
+  //A revoir
+  // getArticles() : any {
+  //   return this.articles;
+  // }
+  
   ngOnInit(): void {
   }
 

@@ -1,0 +1,53 @@
+.book {
+    display: flex;
+    background-color: rgb(77, 156 , 157,32%);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+.bookTitle {
+    list-style: none;
+    text-align: center;
+    margin-top: 2rem;
+}
+.bookTitle h1 {
+    font-family: 'Lilita One', cursive;
+}
+.title {
+    font-family: 'Lilita One', cursive;
+    font-size: 1.5rem;
+}
+.bookInfo {
+    list-style: none;
+    padding: 5em;
+}
+.prix {
+    display: flex;
+    justify-content: space-around;
+}
+
+.prix p {
+    background-color: rgb(196, 196, 196, 41%);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+.cartAddBTN {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.cartAdd {
+    background-color: rgb(196, 196, 196, 41%);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-family: 'Lilita One', cursive;
+    font-size: 2rem;
+}

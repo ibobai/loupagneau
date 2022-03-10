@@ -55,3 +55,14 @@
     font-family: 'Lilita One', cursive;
     font-size: 2rem;
 }
+.returnBTN {
+    margin-left: 10rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgb(77, 156 , 157,32%);
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+}

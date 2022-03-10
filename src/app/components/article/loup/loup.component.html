@@ -1,25 +1,30 @@
+<button class="returnBTN">Retour</button>
 <div class="book">
-    <ul class="bookInfoList">   
-        <li class="bookTitle" *ngFor="let article of articles">
-            <img src={{article.livreImg}}  alt="">
-            <h1>{{article.title}}</h1>
-        </li>
-    </ul>
-    <ul class="bookInfoList">   
-        <li class="bookInfo" *ngFor="let article of articles">
-            <p class="title">Résumer: <p>
-            <p>{{article.resume}}</p>
-            <p class="title">Prix: <p></p>
-            <div class="prix">
-                <p>Strandard <br> {{article.prixStandard}} euros</p>
-                <p>Broché <br>{{article.prixBroche}}</p>
-            </div>
-            <div class="cartAddBTN">
-                <button class="cartAdd">Ajouter au Panier</button>
-            </div>
-        </li>
-    </ul>
-    
+  <ul class="bookInfoList">
+    <li class="bookTitle" *ngFor="let article of articles">
+      <img src="{{ article.livreImg }}" alt="" />
+      <h1>{{ article.title }}</h1>
+    </li>
+  </ul>
+  <ul class="bookInfoList">
+    <li class="bookInfo" *ngFor="let article of articles">
+      <p class="title">Résumer:</p>
+      <p></p>
+      <p>{{ article.resume }}</p>
+      <p class="title">Prix:</p>
+      <p></p>
+      <div class="prix">
+        <p>
+          Strandard <br />
+          {{ article.prixStandard }} euros
+        </p>
+        <p>Broché <br />{{ article.prixBroche }}</p>
+      </div>
+      <div class="cartAddBTN">
+        <button class="cartAdd">Ajouter au Panier</button>
+      </div>
+    </li>
+  </ul>
 </div>
 <!-- <owl-carousel-o [options]="customOptions">
   

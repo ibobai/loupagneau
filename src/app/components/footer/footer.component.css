@@ -24,9 +24,14 @@ h1:hover {
   background-image: url("../../../assets/img/footer.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  height:680px;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.enfin:hover {
+  transform: rotate(10deg);
+  animation-duration: 2s;
+  filter: drop-shadow(5px 5px 10px #d4a444a1);
+}

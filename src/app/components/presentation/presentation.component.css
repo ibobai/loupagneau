@@ -10,11 +10,12 @@
 }
 .teamPresa {
     padding: 4rem;
-    font-family: 'lilita one';
+    
     
 }
 .teamPresa h1 {
     font-size: 3rem;
+    font-family: 'lilita one';
 }
 h1:hover{
     color: #fff;

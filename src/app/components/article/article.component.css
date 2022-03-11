@@ -1,29 +1,31 @@
 .fableTitle {
-    display: flex;
-    justify-content: center;
-    font-family: 'Lilita One', cursive;
-    font-size: 72px;
+  display: flex;
+  justify-content: center;
+  font-family: "Lilita One", cursive;
+  font-size: 72px;
 }
 .articleDisplay {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .articleBG {
-    background-color: rgb(77, 156 , 157,32%);
-    border-radius: 10px;
-    width: 20rem;
-    height: 30rem;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+  background-color: rgb(77, 156, 157, 32%);
+  border-radius: 10px;
+  width: 20rem;
+  height: 30rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
-.articleImg {  
-   width: 15rem;
+.articleImg {
+  width: 15rem;
 }
-h2:hover{
-    color: #fff;
-    text-shadow: 0 0 10px #D4A444,
-                 0 0 20px #469293,
-                 0 0 30px #D4A444;
-  }
-  
+.articleImg:hover {
+  transform: rotate(10deg);
+  animation-duration: 2s;
+  filter: drop-shadow(5px 5px 10px #d4a444a1);
+}
+h2:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #d4a444, 0 0 20px #469293, 0 0 30px #d4a444;
+}

@@ -10,6 +10,7 @@
  /* type d'ecriture du titre*/
 h1 {
   font-family: "Lilita One", cursive;
+  padding-left: 2.5rem;
 }
 
 /* type d'ecriture de la liste et sa taille*/
@@ -29,6 +30,9 @@ h1:hover {
 li{
   list-style:none ;
 }
+ul li {
+  padding-bottom: 1rem;
+}
 
 
 /* Structuration de l'image arriere plan*/
@@ -47,3 +51,4 @@ li{
   animation-duration: 2s;
   filter: drop-shadow(5px 5px 10px #d4a444a1);
 }
+

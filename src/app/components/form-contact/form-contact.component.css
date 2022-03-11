@@ -1,8 +1,5 @@
-body {
-    background-color: #444442;
-    padding-top: 85px;
-}
 
+/* instruction du titre du formulaire*/
 h1 {
     font-family: 'Lilita One', cursive;
     font-weight: 600;
@@ -11,15 +8,9 @@ h1 {
     text-align: center;
 }
 
-h4 {
-    font-family: 'Roboto', sans-serif, 'arial';
-    font-weight: 400;
-    font-size: 20px;
-    color: #9b9b9b;
-    line-height: 1.5;
-}
 
-/* ///// inputs /////*/
+
+/*  inputs */
 
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
     font-size: 0.75em;
@@ -36,7 +27,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
     margin: 1rem 0;
     position: relative;
     border-radius: 4px;
-        font-family: 'Lilita One', cursive;
+     font-family: 'Lilita One', cursive;
 
 }
 
@@ -90,17 +81,20 @@ textarea {
     margin: 20px auto 25px auto;
 }
 
-.submit-btn {
+ /* bouton valider*/
 
+.submit-btn {
+    /* margin: 0 auto;
+    width: 100%;
+    justify-content: center; */
     padding: 7px 35px;
-    border-radius: 60px;
+    border-radius: 10px;
     display: inline-block;
+    float:right;
     background-color: #469293;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     cursor: pointer;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
-              0 2px 10px 0 rgba(0,0,0,0.07);
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
         font-family: 'Lilita One', cursive;
@@ -109,9 +103,8 @@ textarea {
 
 .submit-btn:hover {
     transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
-              0 1px 1px 0 rgba(0,0,0,0.09);
-  
+    color:aquamarine;
+   
 }
 
 
@@ -122,20 +115,15 @@ input[type=checkbox] + label {
 
 } 
 
-input[type=checkbox]:checked + label {
-  color: #f00;
-      font-family: 'Lilita One', cursive;
-
-}
-
+/* img; */
 img{
     display: flex;
     padding-top: 10rem;
 }
 
 .container{
-    /* margin-bottom: 10rem; */
-    padding-top: 5rem;
+
+ padding-top: 5rem;
 }
 .mach{
     display: flex;

@@ -1,3 +1,4 @@
+/* Structuration du body*/
 .tieb {
   background: #132839;
   display: flex;
@@ -6,10 +7,12 @@
   margin: 0 auto;
   margin-top: 20rem;
 }
-
+ /* type d'ecriture du titre*/
 h1 {
   font-family: "Lilita One", cursive;
 }
+
+/* type d'ecriture de la liste et sa taille*/
 h1:hover {
   color: #fff;
   text-shadow: 0 0 10px #D4A444,
@@ -20,6 +23,15 @@ h1:hover {
   font-size: 18px;
   font-family: "Lilita One", cursive;
 }
+
+/* Enlever les boutons de la liste*/
+
+li{
+  list-style:none ;
+}
+
+
+/* Structuration de l'image arriere plan*/
 .tof {
   background-image: url("../../../assets/img/footer.png");
   background-size: 100%;

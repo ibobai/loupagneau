@@ -9,9 +9,12 @@ export class ArticleComponent implements OnInit {
 
   constructor() {
    }
-
+////////////////////test pour passer des donnée de parent a enfant//////////////////////
   // username:string = "blable"
 
+
+////////////////////// Tableau d'objet contenant mes produits//////////////////////////
+/////////////////////l'objet Lien est lié au routing//////////////////////
   articles:any[] = [
     {
       id: 1,
@@ -50,7 +53,7 @@ export class ArticleComponent implements OnInit {
     }
   ];
 
-
+///////////////////////test pour passer des donnée avec le construtor///////////////////////////
   //A revoir
   // getArticles() : any {
   //   return this.articles;

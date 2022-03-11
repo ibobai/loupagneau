@@ -7,7 +7,7 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   styleUrls: ['./loup.component.css']
 })
 export class LoupComponent implements OnInit {
-
+  //////////////////Test de récupération de donnée chez le parent///////////////////
   // @Input() articles:any = [];
   
   constructor() { }
@@ -28,6 +28,8 @@ export class LoupComponent implements OnInit {
       lien:"/loup"
     }
   ];
+
+  /////////////////////////setting du owlcarousel///////////////////////////////////
 
   // customOptions: OwlOptions = {
   //   loop: true,

@@ -26,6 +26,40 @@ a:visited {
 }
 */
 
+/*selcting the active navbar item and make it as current*/
 .theNav .theLinks .active{
   background-color: #D4A444;
+}
+
+span:hover{
+  color: #fff;
+  text-shadow: 0 0 10px #D4A444,
+               0 0 20px #469293,
+               0 0 30px #D4A444;
+}
+.title{
+
+}
+
+.title{
+
+  font-family: "Lilita One", cursive;
+  background: linear-gradient(90deg, #D4A444, #fff, #469293);
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 8s linear infinite;
+  position: relative;
+}
+
+@keyframes shine {
+  5% {
+    background-position-x: -500%;
+  }
+  50% {
+    background-position-x: 500%;
+  }
 }

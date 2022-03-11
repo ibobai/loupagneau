@@ -1,19 +1,25 @@
 .team {
     display: flex;
     justify-content: center;
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 5rem;
+    margin: 5rem 5rem 0rem 5rem;
 }
+/* taille de l'image team.jpg */
 .teamImg img {
     width: 50rem;
     border-radius: 5rem;
 }
 .teamPresa {
     padding: 4rem;
-    font-family: 'lilita one';
+    
     
 }
 .teamPresa h1 {
     font-size: 3rem;
+    font-family: 'lilita one';
 }
+h1:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #D4A444,
+                 0 0 20px #469293,
+                 0 0 30px #D4A444;
+  }

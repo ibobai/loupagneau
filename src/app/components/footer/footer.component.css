@@ -13,6 +13,12 @@ h1 {
 }
 
 /* type d'ecriture de la liste et sa taille*/
+h1:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #D4A444,
+               0 0 20px #469293,
+               0 0 30px #D4A444;
+}
 .tieb p {
   font-size: 18px;
   font-family: "Lilita One", cursive;
@@ -30,9 +36,14 @@ li{
   background-image: url("../../../assets/img/footer.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  height:680px;
+  height: 650px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.enfin:hover {
+  transform: rotate(10deg);
+  animation-duration: 2s;
+  filter: drop-shadow(5px 5px 10px #d4a444a1);
+}

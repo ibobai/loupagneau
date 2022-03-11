@@ -26,6 +26,7 @@ a:visited {
 }
 */
 
+/*selcting the active navbar item and make it as current*/
 .theNav .theLinks .active{
   background-color: #D4A444;
 }

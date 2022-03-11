@@ -17,12 +17,10 @@ h1 {
 .tof {
   background-image: url("../../../assets/img/footer.png");
   background-size: 100%;
-  height: 100vh;
   background-repeat: no-repeat;
-}
-.enfin {
+  height:680px;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
-  padding: 14rem;
+  align-items: center;
 }
+

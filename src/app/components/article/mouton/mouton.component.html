@@ -1,6 +1,9 @@
 <button class="returnBTN" routerLink="/nosFables" >Retour</button>
 <div class="book">
-    <ul class="bookInfoList">   
+    <ul class="bookInfoList">
+
+            <!-- Boucle for pour récupérer mes élément dans mon tableau se trouvant dans le fichier component.ts-->   
+            
         <li class="bookTitle" *ngFor="let article of articles">
             <img src={{article.livreImg}} alt="">
             <h1>{{article.title}}</h1>

@@ -14,7 +14,7 @@ export class ArticleComponent implements OnInit {
 
 
 ////////////////////// Tableau d'objet contenant mes produits//////////////////////////
-///////////////////
+/////////////////////l'objet Lien est lié au routing//////////////////////
   articles:any[] = [
     {
       id: 1,

@@ -56,9 +56,10 @@
     color: white;
     font-family: 'Lilita One', cursive;
     font-size: 2rem;
+    cursor: pointer;
 }
 .returnBTN {
-   
+   margin-left: 10rem;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-top: 1rem;
@@ -67,4 +68,5 @@
     border: none;
     border-radius: 0.3rem;
     color: white;
+    cursor: pointer;
 }

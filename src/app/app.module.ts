@@ -17,6 +17,7 @@ import { MoutonComponent } from './components/article/mouton/mouton.component';
 import { PresentationComponent } from './components/presentation/presentation.component';
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { CommingSoonComponent } from './components/comming-soon/comming-soon.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     LoupComponent,
     OursComponent,
     MoutonComponent,
-    PresentationComponent
+    PresentationComponent,
+    CommingSoonComponent
  
   ],
   imports: [

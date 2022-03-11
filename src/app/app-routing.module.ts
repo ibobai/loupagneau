@@ -9,6 +9,7 @@ import { LoupComponent } from './components/article/loup/loup.component';
 import { PresentationComponent } from './components/presentation/presentation.component';
 import { FormContactComponent } from './components/form-contact/form-contact.component';
 import { preserveWhitespacesDefault } from '@angular/compiler';
+import { CommingSoonComponent } from './components/comming-soon/comming-soon.component';
 
 const routes: Routes = [
   // { path: 'accueil', redirectTo: '/', pathMatch: 'full' },
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'loup', component: LoupComponent },
   { path: 'mouton', component: MoutonComponent },
   { path: 'ours', component: OursComponent },
+  { path: 'commingsoon', component: CommingSoonComponent }
 ];
 
 @NgModule({

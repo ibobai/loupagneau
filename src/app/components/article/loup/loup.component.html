@@ -1,6 +1,9 @@
 <button class="returnBTN" routerLink="/nosFables" >Retour</button>
 <div class="book">
   <ul class="bookInfoList">
+
+    <!-- Boucle for pour récupérer mes élément dans mon tableau se trouvant dans le fichier component.ts-->
+
     <li class="bookTitle" *ngFor="let article of articles">
       <img src="{{ article.livreImg }}" alt="" />
       <h1>{{ article.title }}</h1>
@@ -26,6 +29,8 @@
     </li>
   </ul>
 </div>
+
+<!-- Test carousel avec owl carousel, je dois chercher un autre carousel -->
 <!-- <owl-carousel-o [options]="customOptions">
   
     <ng-container *ngFor="let slide of articles">

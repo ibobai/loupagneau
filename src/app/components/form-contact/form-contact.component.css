@@ -140,3 +140,10 @@ img{
 .mach{
     display: flex;
 }
+
+h1:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #D4A444,
+                 0 0 20px #469293,
+                 0 0 30px #D4A444;
+  }

@@ -45,6 +45,11 @@
     justify-content: center;
     margin-top: 2rem;
 }
+.cartAdd:hover {
+    color: #fff;
+    text-shadow: 0 0 30px #469293, 0 0 20px #469293, 0 0 30px #d4a444;
+  }
+  
 .cartAdd {
     background-color: rgb(196, 196, 196, 41%);
     padding-left: 4rem;

@@ -57,6 +57,10 @@
     font-size: 2rem;
     cursor: pointer;
 }
+.cartAdd:hover {
+    color: #fff;
+    text-shadow: 0 0 30px #469293, 0 0 20px #469293, 0 0 30px #d4a444;
+  }
 .returnBTN {
     margin-left: 10rem;
     padding-left: 3rem;

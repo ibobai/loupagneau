@@ -31,16 +31,6 @@ a:visited {
   background-color: #D4A444;
 }
 
-span:hover{
-  color: #fff;
-  text-shadow: 0 0 10px #D4A444,
-               0 0 20px #469293,
-               0 0 30px #D4A444;
-}
-.title{
-
-}
-
 .title{
 
   font-family: "Lilita One", cursive;
@@ -53,6 +43,7 @@ span:hover{
   background-size: 80%;
   animation: shine 8s linear infinite;
   position: relative;
+
 }
 
 @keyframes shine {
